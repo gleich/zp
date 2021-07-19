@@ -1,9 +1,10 @@
 import styles from '@styles/components/Button.module.css'
+import Link from 'next/link'
 
-export default function Button({ url, text }: { url?: string; text: string }) {
+export default function Button({ url, text }: { url: string; text: string }) {
   return (
-    <a href={url}>
+    <Link href={url} passHref>
       <button className={styles.button}> {text}</button>
-    </a>
+    </Link>
   )
 }

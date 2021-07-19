@@ -10,10 +10,10 @@ export default function Home() {
         <div className={styles.title}>
           <h1 className={styles.titleWord}>Zephyr</h1>
           <h1 className={styles.titleWord}>People</h1>
-          <h1 className={styles.titleWord}>Log</h1>
         </div>
-        <div>
-          <Button text="Submit" />
+        <div className={styles.buttons}>
+          <Button text="👋 Meet em'" url="/meet" />
+          <Button text="🗺️ Map" url="/map" />
         </div>
       </body>
     </div>
