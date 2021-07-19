@@ -1,0 +1,9 @@
+.button {
+  padding: 30px;
+  font-size: 2rem;
+  max-width: 200px;
+  background-color: var(--blackbird-red);
+  color: var(--blackbird-white);
+  border: 0;
+  border-radius: 3%;
+}

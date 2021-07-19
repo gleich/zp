@@ -1,0 +1,20 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.title {
+  line-height: 4ch;
+  padding-right: 80px;
+}
+
+@media screen and (max-width: 474px) {
+  .title {
+    text-align: center;
+    align-content: center;
+    padding-right: 0;
+  }
+}

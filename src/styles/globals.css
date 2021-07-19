@@ -1,7 +1,8 @@
 :root {
-  --zephyr-blue: #021b36;
-  --zephyr-red: #c54d4c;
-  --zephyr-lightblue: #9cb2ae;
+  --blackbird-blue: #418fdd;
+  --blackbird-black: #000000;
+  --blackbird-red: #e92741;
+  --blackbird-white: #fdf7cd;
 }
 
 html,
@@ -10,4 +11,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--blackbird-black);
+  color: var(--blackbird-white);
+}
+
+h1 {
+  font-size: 6rem;
 }
