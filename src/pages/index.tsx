@@ -5,7 +5,7 @@ import Button from '@components/Button'
 export default function Home() {
   return (
     <div>
-      <Meta title="zp" />
+      <Meta title="Zephyr People" />
       <body className={styles.body}>
         <div className={styles.title}>
           <h1 className={styles.titleWord}>Zephyr</h1>

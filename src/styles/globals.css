@@ -9,8 +9,16 @@ body {
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 9rem;
   font-family: 'Zen Tokyo Zoo';
+}
+
+a:visited {
+  color: #418fdd;
+}
+
+p {
+  font-size: 2rem;
 }
 
 @font-face {
