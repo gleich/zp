@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <div className={styles.buttons}>
           <Button text="👋 Meet em'" url="/meet" />
-          <Button text="🗺️ Map" url="/map" />
+          <Button text="📬 Submit" url="/submit" />
         </div>
       </body>
     </div>
