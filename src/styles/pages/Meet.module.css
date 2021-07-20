@@ -1,7 +1,10 @@
 .body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.title {
+  margin: 12vh 0 0 0;
 }
