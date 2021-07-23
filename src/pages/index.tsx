@@ -13,6 +13,7 @@ export default function Home() {
         </div>
         <div className={styles.buttons}>
           <Button text="👋 Meet em'" url="/meet" />
+          <Button text="📊 Visualize Connections" url="/visual" />
           <Button text="📬 Submit" url="/submit" />
         </div>
       </body>
