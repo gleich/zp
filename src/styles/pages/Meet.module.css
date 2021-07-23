@@ -8,3 +8,12 @@
 .title {
   margin: 12vh 0 0 0;
 }
+
+.description {
+  max-width: 800px;
+}
+
+.people {
+  align-items: left;
+  padding-bottom: 100px;
+}

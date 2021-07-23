@@ -12,8 +12,9 @@ export default function Submit() {
           people. Please make sure you have the following information!
         </p>
         <ul>
-          <li>A photo of the person</li>
+          <li>Name of the person you met</li>
           <li>What city you met them in</li>
+          <li>Any cool facts that you have about a person</li>
         </ul>
       </body>
     </div>
